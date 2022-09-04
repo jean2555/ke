@@ -1,0 +1,33 @@
+.skeez__section-brand{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #040C18;
+}
+
+.skeez__section-brand div{
+    flex:1;
+    max-width: 200px;
+    min-width: 200px;
+    margin: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen  and (max-width: 550px) {
+
+    .skeez__section-brand div{
+        flex:1;
+        max-width: 200px;
+        min-width: 100px;
+        margin: 1rem;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}

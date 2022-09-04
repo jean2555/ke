@@ -1,0 +1,62 @@
+.wrapper{
+ 
+    height: auto;
+    padding: 10px;
+}
+.row{
+
+    padding-top: 6rem!important;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    padding: 10px;
+    font-size: 20px;
+    width: 350px;
+    
+
+}
+.Top{
+    margin: 30px;
+    text-transform: capitalize;
+}
+.wrapper{
+    background-color:black ;
+
+}
+.baseline-hi{
+    padding: 20px;
+}
+.row__foo{
+    display: flex;
+    justify-content:space-evenly;
+}
+::after{
+    box-sizing: inherit;
+}
+.btn-primary-outline{
+    margin-top: 10px;
+    color: black;
+    background-color: white;
+    font-size: 1.8rem;
+    height:3rem;
+    width: 300px;
+   
+}
+.layout{
+
+    padding-top: 6rem!important;
+    margin-left: 5rem;
+
+}
+.skeez-end{
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 80px;
+  
+    font-size: 0.75rem;
+    line-height: 1.5;
+}

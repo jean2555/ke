@@ -1,0 +1,146 @@
+.grade__text {
+
+    background-color: black;
+    background-image: radial-gradient(circle at 30% 85%, #bbeffb 0, var(--secondary-color) 35%, #53739d 55%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    height: 514px;
+    padding: 4rem 2rem;
+    font-weight: 600;
+    font-size: 6rem;
+    line-height: 6.5rem;
+    display: block;
+    
+
+
+
+}
+
+h1.header-title {
+
+    font-size: 10rem;
+    line-height: 9.5rem;
+    font-weight: 600;
+    height: 234px;
+    width: 725px;
+
+
+
+}
+
+a.primary-btn {
+
+
+    -webkit-text-fill-color: black;
+    font-size: 1.5rem;
+    background-color: white;
+    padding: 10px 50px 20px;
+    border-radius: 10px;
+    justify-content: center;
+
+
+
+    height: 54px;
+    width: 294px;
+    position: relative;
+    bottom: -2rem;
+}
+
+p.font-weight {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5rem;
+    -webkit-text-fill-color: white;
+    height: 27px;
+}
+
+.media-head {
+    object-fit: cover;
+    height: 800px;
+    width: 500px;
+}
+
+.skeez__header-content {
+    display: flex;
+    flex-direction: row;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 1050px) {
+
+    .media-head {
+        display: flex;
+        object-fit: cover;
+        height: 696px;
+        width: 490px;
+    }
+
+    .grade__text {
+        height: 500px;
+        width: 60%;
+        padding: 3rem 1rem;
+        font-weight: 600;
+        font-size: 1rem;
+        line-height: 2.5rem;
+        display: block;
+
+
+    }
+
+    h1.header-title {
+
+        font-size: 5rem;
+        line-height: 5.5rem;
+        font-weight: 600;
+        height: 234px;
+        width: 425px;
+
+    }
+
+    a.primary-btn {
+
+        height: 54px;
+        width: 294px;
+        position: relative;
+        top: 5rem;
+    }
+
+    p.font-weight {
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 5rem;
+        -webkit-text-fill-color: white;
+        height: 15px;
+    }
+
+
+    @media screen and (max-width: 950px) {
+
+        .media-head {
+            display: none;
+
+        }
+
+        .grade__text {
+            height: 400px;
+            width: 100%;
+            font-weight: 600;
+            font-size: 1rem;
+            line-height: 2.5rem;
+            display: flex;
+            flex-direction: column;
+
+
+
+        }
+       a.primary-btn {
+            display: none;
+
+        }
+
+        .button-strip {
+            height: 100%;
+        }
+
+    }
+}

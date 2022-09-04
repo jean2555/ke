@@ -1,0 +1,17 @@
+.txt{
+
+    font-size: 50px;
+    line-height: 2;
+    color:white;
+    text-align: center;
+    background-color: #040C18;
+    height: 200px;
+    padding-top: 80px;
+}
+.p{
+
+    font-size: 20px;
+    line-height: 1.5;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
